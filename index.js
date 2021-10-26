@@ -59,11 +59,6 @@ run().catch(err => console.log(err)
 )
 
 
-app.get("/", (req, res)=>{
-    res.send("Welcome to Genius Car Mechanic Server")
-})
-
-
 app.listen(port, ()=>{
     console.log("listening from port", port)
     
